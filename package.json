@@ -1,0 +1,33 @@
+{
+  "name": "directory-crawler",
+  "version": "0.0.1",
+  "description": "The directory crawler library for Node.JS",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishil06/directory-crawler.git"
+  },
+  "keywords": [
+    "directory",
+    "crawler",
+    "readdir",
+    "opendir",
+    "stream"
+  ],
+  "author": "bishil06",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bishil06/directory-crawler/issues"
+  },
+  "homepage": "https://github.com/bishil06/directory-crawler#readme",
+  "engines": {
+    "node": ">=13.1.0"
+  }
+}
