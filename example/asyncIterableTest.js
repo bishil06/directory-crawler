@@ -11,7 +11,7 @@ console.log(process.hrtime.bigint() - lasttime); // 5432459n -> 0.05432459s
 
 lasttime = process.hrtime.bigint()
 // let count = 0
-for await (const d of crawlingDir(Infinity, 100, './', '../')) {
+for await (const d of crawlingDir(Infinity, 10, './', '../')) {
     // console.log(count +=1, d);
 }
 console.log(process.hrtime.bigint() - lasttime); // 4184458n -> 0.04184458s
