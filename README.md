@@ -1,6 +1,9 @@
 # directory-crawler
 The directory crawler library by Node.JS
 
+## Notice
+Currently, this library is under development and changes to the API may occur at any time. 
+
 ## install
 ```
 npm install directory-crawler
