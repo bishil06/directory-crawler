@@ -47,7 +47,7 @@ console.log(process.hrtime.bigint() - lasttime); // 1222789700n
 
 ## usage
 ```js
-import { crawlingDirStream } from 'directory-crawler'
+import { crawlingDir } from 'directory-crawler'
 
 let lasttime = process.hrtime.bigint()
 crawlingDir(Infinity, '../').then((files) => {
