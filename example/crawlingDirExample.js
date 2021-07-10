@@ -1,7 +1,8 @@
-import { crawlingDir } from '../index.js'
+import { crawlingDir } from '../index.js';
 
-let lasttime = process.hrtime.bigint()
-crawlingDir(Infinity, '../').then((files) => {
-    console.log(files);
-    console.log(process.hrtime.bigint() - lasttime);
-})
+const lasttime = process.hrtime.bigint();
+
+crawlingDir(Infinity, Infinity, '../').then((files) => {
+  console.log(files.length);
+  console.log(process.hrtime.bigint() - lasttime);
+});
